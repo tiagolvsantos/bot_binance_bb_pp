@@ -81,7 +81,7 @@ while True:
         resolution = "15m"
         symbol="BTC/USDT"
         position = 0
-        cash = 50
+        cash = 1000
         #####################################################
         exchange = ccxt.binance({
             'apiKey': configs["API_KEY"],
